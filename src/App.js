@@ -15,14 +15,14 @@ function App() {
       <ArrearageNavbar></ArrearageNavbar>
       <Router>
         <Switch>
-          <Route path="/about">
+        <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/price">
             {/* <About /> */}
           </Route>
           <Route path="/features">
             <Features/>
-          </Route>
-          <Route path="/">
-            <Home />
           </Route>
         </Switch>
       </Router>
